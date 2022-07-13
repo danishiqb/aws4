@@ -1,0 +1,21 @@
+1-Explain about AWS shared responsibility model
+Ans:-Security and Compliance is a shared responsibility between AWS and the customer. 
+     This shared model can help relieve the customer’s operational burden as AWS operates, manages and controls the components from the host operating system.
+a) AWS responsibility “Security of the Cloud” - AWS is responsible for protecting the infrastructure that runs all of the services offered in the AWS Cloud. 
+This infrastructure is composed of the hardware, software, networking, and facilities that run AWS Cloud services.
+
+b) Customer responsibility “Security in the Cloud” – Customer responsibility will be determined by the AWS Cloud services that a customer selects. This determines the amount of configuration work the customer must perform as part of their security responsibilities.
+ For example, a service such as Amazon Elastic Compute Cloud (Amazon EC2) is categorized as Infrastructure as a Service.
+
+2- what is IAM service?
+Ans :-AWS Identity and Access Management (IAM) is a web service that helps you securely control access to AWS resources.
+     You use IAM to control who is authenticated (signed in) and authorized (has permissions) to use resources.
+
+3-What is Iam user , Iam role ,IAM group  and policy?
+a) IAM users:-An IAM user is an entity that you create in AWS. The IAM user represents the person or service who uses the IAM user to interact with AWS
+b) IAM user groups:-An IAM user group is a collection of IAM users. You can use user groups to specify permissions for a collection of users,
+                    which can make those permissions easier to manage for those users
+c) IAM roles:-An IAM role is very similar to a user, in that it is an identity with permission policies that determine what the identity can and cannot do in AWS.
+              However, a role does not have any credentials (password or access keys) associated with it.
+d) IAM policies:- it define permissions for an action regardless of the method that you use to perform the operation.
+                  For example, if a policy allows the GetUser action, then a user with that policy can get user information from the AWS Management Console, the AWS CLI, or the AWS API.
